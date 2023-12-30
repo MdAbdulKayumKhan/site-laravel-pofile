@@ -36,5 +36,8 @@
 <script src="{{asset('AdminFront/js/datatables-select.min.js')}}"></script>
 <script src="{{asset('AdminFront/js/custom.js')}}"></script>
 <script src="{{asset('AdminFront/js/axios.min.js')}}"></script>
+<script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+
+@stack('script')
 </body>
 </html>
