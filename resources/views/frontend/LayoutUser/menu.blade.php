@@ -19,7 +19,7 @@
                 <a class="nav-link nav-font" href="blog.html">ব্লগ</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link nav-font" href="#">যোগাযোগ</a>
+                <a class="nav-link nav-font" href="{{url('/admin')}}">যোগাযোগ</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

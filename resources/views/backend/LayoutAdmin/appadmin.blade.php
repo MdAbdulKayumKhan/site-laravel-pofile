@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{asset('AdminFront/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('AdminFront/css/mdb.min.css')}}">
     <link rel="stylesheet" href="{{asset('AdminFront/css/sidenav.css')}}">
-    <link rel="stylesheet" href="{{asset('AdminFront/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/AdminFront/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('AdminFront/css/responsive.css')}}">
     <link rel="stylesheet" href="{{asset('AdminFront/css/datatables.min.css')}}">
     <link rel="stylesheet" href="{{asset('AdminFront/css/datatables-select.min.css')}}">
@@ -36,7 +36,7 @@
 <script src="{{asset('AdminFront/js/datatables-select.min.js')}}"></script>
 <script src="{{asset('AdminFront/js/custom.js')}}"></script>
 <script src="{{asset('AdminFront/js/axios.min.js')}}"></script>
-<script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+{{--<script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>--}}
 
 @stack('script')
 </body>

@@ -20,4 +20,5 @@ Route::get('/admin',[AdminController::class,'AdminIndex']);
 Route::get('/visitor',[VisitorController::class,'Visitor']);
 Route::get('/services',[AdminServicesController::class,'AdminServices']);
 Route::get('/getServices',[AdminServicesController::class,'getAdminServices']);
+Route::post('/deleteService',[AdminServicesController::class,'AdminServiceDelete']);
 /** Backend route end */
